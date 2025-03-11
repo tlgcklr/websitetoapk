@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.webviewgold.myappname.app-mergeDebugResources-50:/values-v26/values-v26.xml",
+            "map": [
+                {
+                    "source": "/Users/tolgamac/.gradle/caches/8.11.1/transforms/89321e7e98a091fbc515c894ab03c99f/transformed/appcompat-1.6.1/res/values-v26/values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,381,557,796",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,376,552,791,884"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,21,25,29",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "778,853,940,1104,1280,1519",
+                        "endLines": "15,16,20,24,28,29",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "848,935,1099,1275,1514,1607"
+                    }
+                },
+                {
+                    "source": "/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/res/values-v26/styles.xml",
+                    "from": {
+                        "startLines": "5,18,13,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "213,768,617,860",
+                        "endLines": "11,18,16,20",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "611,854,762,936"
+                    },
+                    "to": {
+                        "startLines": "2,9,10,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,458,548,698",
+                        "endLines": "8,9,13,14",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "453,543,693,773"
+                    }
+                }
+            ]
+        }
+    ]
+}

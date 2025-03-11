@@ -1,0 +1,1223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.webviewgold.myappname"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:8:5-79
+13-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:9:22-78
+15    <!--
+16    Uncomment the following section (beside section #2 bewlow) your application requires background location services (when `requireBackgroundLocation` is set to "true" in "Config.java") -
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+19    -->
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:13:5-80
+20-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:13:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:14:5-81
+21-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:14:22-78
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:15:5-65
+22-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:15:22-62
+23    <uses-permission android:name="android.webkit.PermissionRequest" />
+23-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:16:5-72
+23-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:16:22-69
+24    <uses-permission android:name="com.android.vending.BILLING" />
+24-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:17:5-67
+24-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+25-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:18:5-73
+25-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:18:22-70
+26    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+26-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:19:5-71
+26-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:19:22-68
+27    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+27-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:20:5-80
+27-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:20:22-77
+28    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+28-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:21:5-78
+28-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:21:22-76
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:22:5-76
+29-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:22:22-74
+30    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+30-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:23:5-88
+30-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:23:22-85
+31
+32    <uses-feature android:name="android.hardware.camera" />
+32-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:25:5-60
+32-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:25:19-57
+33
+34    <queries>
+34-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:27:5-38:15
+35        <intent>
+35-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:28:9-30:18
+36            <action android:name="android.media.action.IMAGE_CAPTURE" />
+36-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:29:13-73
+36-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:29:21-70
+37        </intent>
+38        <intent>
+38-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:31:9-33:18
+39            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+39-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:32:13-80
+39-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:32:21-77
+40        </intent>
+41        <intent>
+41-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:34:9-37:18
+42            <action android:name="android.intent.action.VIEW" />
+42-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:13-65
+42-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:21-62
+43
+44            <data android:mimeType="text/calendar" />
+44-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:13-54
+44-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:19-51
+45        </intent>
+46        <intent>
+46-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:13:9-15:18
+47            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+47-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:14:13-91
+47-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:14:21-88
+48        </intent> <!-- For browser content -->
+49        <intent>
+49-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:35:9-41:18
+50            <action android:name="android.intent.action.VIEW" />
+50-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:13-65
+50-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:21-62
+51
+52            <category android:name="android.intent.category.BROWSABLE" />
+52-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:17-78
+52-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:27-75
+53
+54            <data android:scheme="https" />
+54-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:13-54
+54-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:136:21-43
+55        </intent> <!-- End of browser content -->
+56        <!-- For CustomTabsService -->
+57        <intent>
+57-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:44:9-46:18
+58            <action android:name="android.support.customtabs.action.CustomTabsService" />
+58-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:45:13-90
+58-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:45:21-87
+59        </intent>
+60        <intent>
+60-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:32:9-38:18
+61            <action android:name="android.intent.action.VIEW" />
+61-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:13-65
+61-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:21-62
+62
+63            <category android:name="android.intent.category.BROWSABLE" />
+63-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:17-78
+63-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:27-75
+64
+65            <data android:scheme="http" />
+65-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:13-54
+65-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:136:21-43
+66        </intent>
+67
+68        <package android:name="com.facebook.katana" />
+68-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:12:9-55
+68-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:12:18-52
+69    </queries>
+70
+71    <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+72    <permission
+72-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:7:5-9:47
+73        android:name="com.webviewgold.myappname.permission.C2D_MESSAGE"
+73-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:8:9-63
+74        android:protectionLevel="signature" />
+74-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:9:9-44
+75
+76    <uses-permission android:name="com.webviewgold.myappname.permission.C2D_MESSAGE" /> <!-- c2dm RECEIVE are basic requirements for push messages through Google's FCM -->
+76-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:11:5-79
+76-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:11:22-76
+77    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+77-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:18:5-82
+77-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:18:22-79
+78    <uses-permission android:name="android.permission.WAKE_LOCK" />
+78-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:19:5-68
+78-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:19:22-65
+79    <!--
+80 Required so the device vibrates on receiving a push notification.
+81         Vibration settings of the device still apply.
+82    -->
+83    <uses-permission android:name="android.permission.VIBRATE" />
+83-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:24:5-66
+83-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:24:22-63
+84    <!--
+85 Use to restore notifications the user hasn't interacted with.
+86         They could be missed notifications if the user reboots their device if this isn't in place.
+87    -->
+88    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+88-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:30:5-81
+88-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:30:22-78
+89    <!-- Samsung -->
+90    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+90-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:32:5-86
+90-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:32:22-83
+91    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+91-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:33:5-87
+91-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:33:22-84
+92    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+92-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:34:5-81
+92-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:34:22-78
+93    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+93-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:35:5-83
+93-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:35:22-80
+94    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+94-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:36:5-88
+94-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:36:22-85
+95    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+95-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:37:5-92
+95-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:37:22-89
+96    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+96-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:38:5-84
+96-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:38:22-81
+97    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+97-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:39:5-83
+97-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:39:22-80
+98    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+98-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:40:5-91
+98-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:40:22-88
+99    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+99-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:41:5-92
+99-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:41:22-89
+100    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+100-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:42:5-93
+100-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:42:22-90
+101    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+101-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:43:5-73
+101-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:43:22-70
+102    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+102-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:44:5-82
+102-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:44:22-79
+103    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+103-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:45:5-83
+103-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:45:22-80
+104    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+104-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:46:5-88
+104-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:46:22-85
+105    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+105-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:47:5-89
+105-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:47:22-86
+106    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+106-->[androidx.biometric:biometric:1.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e21ad1b4a24d2f49efb554c42286b4e1/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+106-->[androidx.biometric:biometric:1.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e21ad1b4a24d2f49efb554c42286b4e1/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+107    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+107-->[androidx.biometric:biometric:1.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e21ad1b4a24d2f49efb554c42286b4e1/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+107-->[androidx.biometric:biometric:1.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e21ad1b4a24d2f49efb554c42286b4e1/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+108    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+108-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+108-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+109    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+109-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:26:5-77
+109-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:26:22-74
+110
+111    <permission
+111-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+112        android:name="com.webviewgold.myappname.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+112-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+113        android:protectionLevel="signature" />
+113-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+114
+115    <uses-permission android:name="com.webviewgold.myappname.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+115-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+115-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+116
+117    <application
+117-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:40:5-166:19
+118        android:name="com.webviewgold.myappname.WebViewApp"
+118-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:41:9-35
+119        android:allowBackup="false"
+119-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:42:9-36
+120        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+120-->[androidx.core:core:1.9.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1017c9823a4dd4ac13b6d38d0295da61/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+121        android:debuggable="true"
+122        android:extractNativeLibs="false"
+123        android:hardwareAccelerated="true"
+123-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:43:9-43
+124        android:icon="@mipmap/ic_launcher"
+124-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:44:9-43
+125        android:label="@string/app_name"
+125-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:45:9-41
+126        android:requestLegacyExternalStorage="true"
+126-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:46:9-52
+127        android:supportsRtl="true"
+127-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:47:9-35
+128        android:testOnly="true"
+129        android:theme="@style/AppTheme"
+129-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:48:9-40
+130        android:usesCleartextTraffic="true" >
+130-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:49:9-44
+131        <provider
+132            android:name="com.webviewgold.myappname.GenericFileProvider"
+132-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:53:13-48
+133            android:authorities="com.webviewgold.myappname.provider"
+133-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:54:13-60
+134            android:exported="false"
+134-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:55:13-37
+135            android:grantUriPermissions="true" >
+135-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:56:13-47
+136            <meta-data
+136-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:57:13-59:53
+137                android:name="android.support.FILE_PROVIDER_PATHS"
+137-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:58:17-67
+138                android:resource="@xml/file_path" />
+138-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:59:17-50
+139        </provider>
+140
+141        <activity
+141-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:68:9-78:20
+142            android:name="com.webviewgold.myappname.nfc.MyNfcActivity"
+142-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:69:13-46
+143            android:exported="false" >
+143-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:70:13-37
+144            <intent-filter>
+144-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:71:13-77:29
+145                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+145-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:72:17-77
+145-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:72:25-74
+146
+147                <category android:name="android.intent.category.DEFAULT" />
+147-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:17-76
+147-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:27-73
+148
+149                <data android:mimeType="text/plain" />
+149-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:13-54
+149-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:19-51
+150            </intent-filter>
+151        </activity>
+152
+153        <meta-data
+153-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:80:9-83:45
+154            android:name="com.google.android.gms.version"
+154-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:81:13-58
+155            android:value="@integer/google_play_services_version" />
+155-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:82:13-66
+156        <meta-data
+156-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:84:9-86:36
+157            android:name="com.onesignal.suppressLaunchURLs"
+157-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:85:13-60
+158            android:value="true" />
+158-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:86:13-33
+159        <meta-data
+159-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:87:9-89:52
+160            android:name="com.google.android.gms.ads.APPLICATION_ID"
+160-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:88:13-69
+161            android:value="@string/admob_app_id" />
+161-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:89:13-49
+162        <meta-data
+162-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:90:9-92:39
+163            android:name="com.onesignal.NotificationOpened.DEFAULT"
+163-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:91:13-68
+164            android:value="DISABLE" />
+164-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:92:13-36
+165        <meta-data
+165-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:94:9-92
+166            android:name="com.pushwoosh.lazy_initialization"
+166-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:94:20-68
+167            android:value="true" />
+167-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:94:69-89
+168        <meta-data
+168-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:95:9-98
+169            android:name="com.pushwoosh.appid"
+169-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:95:20-54
+170            android:value="@string/pushwoosh_app_id" />
+170-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:95:55-95
+171        <meta-data
+171-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:96:9-98
+172            android:name="com.pushwoosh.senderid"
+172-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:96:20-57
+173            android:value="@string/fcm_sender_id" />
+173-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:96:58-95
+174
+175        <activity android:name="com.webviewgold.myappname.SplashScreen" />
+175-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:97:9-99:15
+175-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:98:13-41
+176        <activity
+176-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:101:9-112:20
+177            android:name="com.webviewgold.myappname.SplashScreenActivity"
+177-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:102:13-49
+178            android:exported="true"
+178-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:104:13-36
+179            android:theme="@style/Theme.App.Starting" >
+179-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:103:13-54
+180            <intent-filter>
+180-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:107:13-110:29
+181                <action android:name="android.intent.action.MAIN" />
+181-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:108:17-69
+181-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:108:25-66
+182
+183                <category android:name="android.intent.category.LAUNCHER" />
+183-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:109:17-77
+183-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:109:27-74
+184            </intent-filter>
+185        </activity>
+186        <activity
+186-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:114:9-138:20
+187            android:name="com.webviewgold.myappname.MainActivity"
+187-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:115:13-41
+188            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+188-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:116:13-122
+189            android:exported="true"
+189-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:117:13-36
+190            android:launchMode="singleTask"
+190-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:119:13-44
+191            android:screenOrientation="fullSensor"
+191-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:118:13-51
+192            android:theme="@style/AppTheme" >
+192-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:120:13-44
+193            <intent-filter>
+193-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:122:13-125:29
+194                <action android:name="intent.my.action" />
+194-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:123:17-59
+194-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:123:25-56
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:17-76
+196-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:27-73
+197            </intent-filter>
+198            <intent-filter
+198-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:126:13-137:29
+199                android:autoVerify="true"
+199-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:127:17-42
+200                android:label="@string/app_name" >
+200-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:128:17-49
+201                <action android:name="android.intent.action.VIEW" />
+201-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:13-65
+201-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:21-62
+202
+203                <category android:name="android.intent.category.DEFAULT" />
+203-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:17-76
+203-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:27-73
+204                <category android:name="android.intent.category.BROWSABLE" />
+204-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:17-78
+204-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:132:27-75
+205                <!-- Accepts URIs that begin with "https://www.your-webview-site-example.com” -->
+206                <data
+206-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:36:13-54
+207                    android:host="www.your-webview-site-example.com"
+207-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:135:21-69
+208                    android:scheme="https" />
+208-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:136:21-43
+209            </intent-filter>
+210        </activity>
+211
+212        <meta-data
+212-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:140:9-142:54
+213            android:name="com.google.firebase.messaging.default_notification_icon"
+213-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:141:13-83
+214            android:resource="@mipmap/ic_launcher" />
+214-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:142:13-51
+215        <!--
+216 Set color used with incoming notification messages. This is used when no color is set for the incoming
+217             notification message. See README(https://goo.gl/6BKBk7) for more.
+218        -->
+219        <meta-data
+219-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:147:9-149:53
+220            android:name="com.google.firebase.messaging.default_notification_color"
+220-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:148:13-84
+221            android:resource="@color/colorAccent" />
+221-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:149:13-50
+222        <meta-data
+222-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:150:9-152:71
+223            android:name="com.google.firebase.messaging.default_notification_channel_id"
+223-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:151:13-89
+224            android:value="@string/default_notification_channel_id" />
+224-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:152:13-68
+225
+226        <!-- Section #2: Uncomment the following section (beside section #1 above) your application requires background location services (when `requireBackgroundLocation` is set to "true" in "Config.java") -->
+227        <!-- <service android:name=".GPSService" -->
+228        <!-- android:exported="false" -->
+229        <!-- android:foregroundServiceType="location"/> -->
+230
+231        <service
+231-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:159:9-165:19
+232            android:name="com.webviewgold.myappname.MyFirebaseMessagingService"
+232-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:160:13-55
+233            android:exported="false" >
+233-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:161:13-37
+234            <intent-filter>
+234-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:162:13-164:29
+235                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+235-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:17-78
+235-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:25-75
+236            </intent-filter>
+237        </service>
+238
+239        <receiver
+239-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:50:9-61:20
+240            android:name="com.onesignal.FCMBroadcastReceiver"
+240-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:51:13-62
+241            android:exported="true"
+241-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:52:13-36
+242            android:permission="com.google.android.c2dm.permission.SEND" >
+242-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:53:13-73
+243
+244            <!-- High priority so OneSignal payloads can be filtered from other FCM receivers -->
+245            <intent-filter android:priority="999" >
+245-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:56:13-60:29
+245-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:56:28-50
+246                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+246-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:57:17-81
+246-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:57:25-78
+247
+248                <category android:name="com.webviewgold.myappname" />
+248-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:59:17-61
+248-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:59:27-58
+249            </intent-filter>
+250        </receiver>
+251
+252        <service
+252-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:63:9-69:19
+253            android:name="com.onesignal.HmsMessageServiceOneSignal"
+253-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:64:13-68
+254            android:exported="false" >
+254-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:65:13-37
+255            <intent-filter>
+255-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:66:13-68:29
+256                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+256-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:67:17-81
+256-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:67:25-78
+257            </intent-filter>
+258        </service>
+259
+260        <activity
+260-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:71:9-79:20
+261            android:name="com.onesignal.NotificationOpenedActivityHMS"
+261-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:72:13-71
+262            android:exported="true"
+262-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:73:13-36
+263            android:noHistory="true"
+263-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:74:13-37
+264            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+264-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:75:13-72
+265            <intent-filter>
+265-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:76:13-78:29
+266                <action android:name="android.intent.action.VIEW" />
+266-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:13-65
+266-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:35:21-62
+267            </intent-filter>
+268        </activity>
+269
+270        <service
+270-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:81:9-83:40
+271            android:name="com.onesignal.FCMIntentService"
+271-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:82:13-58
+272            android:exported="false" />
+272-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:83:13-37
+273        <service
+273-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:84:9-87:72
+274            android:name="com.onesignal.FCMIntentJobService"
+274-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:85:13-61
+275            android:exported="false"
+275-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:86:13-37
+276            android:permission="android.permission.BIND_JOB_SERVICE" />
+276-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:87:13-69
+277        <service
+277-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:88:9-91:43
+278            android:name="com.onesignal.SyncService"
+278-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:89:13-53
+279            android:exported="false"
+279-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:90:13-37
+280            android:stopWithTask="true" />
+280-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:91:13-40
+281        <service
+281-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:92:9-95:72
+282            android:name="com.onesignal.SyncJobService"
+282-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:93:13-56
+283            android:exported="false"
+283-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:94:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" />
+284-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:95:13-69
+285
+286        <activity
+286-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:97:9-100:75
+287            android:name="com.onesignal.PermissionsActivity"
+287-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:98:13-61
+288            android:exported="false"
+288-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:99:13-37
+289            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+289-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:100:13-72
+290
+291        <receiver
+291-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:102:9-104:39
+292            android:name="com.onesignal.NotificationDismissReceiver"
+292-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:103:13-69
+293            android:exported="true" />
+293-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:104:13-36
+294        <receiver
+294-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:105:9-112:20
+295            android:name="com.onesignal.BootUpReceiver"
+295-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:106:13-56
+296            android:exported="true" >
+296-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:107:13-36
+297            <intent-filter>
+297-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:108:13-111:29
+298                <action android:name="android.intent.action.BOOT_COMPLETED" />
+298-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:17-79
+298-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:25-76
+299                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+299-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:110:17-82
+299-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:110:25-79
+300            </intent-filter>
+301        </receiver>
+302        <receiver
+302-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:113:9-119:20
+303            android:name="com.onesignal.UpgradeReceiver"
+303-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:114:13-57
+304            android:exported="true" >
+304-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:115:13-36
+305            <intent-filter>
+305-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:116:13-118:29
+306                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+306-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:117:17-84
+306-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:117:25-81
+307            </intent-filter>
+308        </receiver>
+309
+310        <activity
+310-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:121:9-127:75
+311            android:name="com.onesignal.NotificationOpenedReceiver"
+311-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:122:13-68
+312            android:excludeFromRecents="true"
+312-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:123:13-46
+313            android:exported="true"
+313-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:124:13-36
+314            android:noHistory="true"
+314-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:125:13-37
+315            android:taskAffinity=""
+315-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:126:13-36
+316            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+316-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:127:13-72
+317        <activity
+317-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:128:9-133:75
+318            android:name="com.onesignal.NotificationOpenedReceiverAndroid22AndOlder"
+318-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:129:13-85
+319            android:excludeFromRecents="true"
+319-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:130:13-46
+320            android:exported="true"
+320-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:131:13-36
+321            android:noHistory="true"
+321-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:132:13-37
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+322-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:133:13-72
+323
+324        <provider
+324-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:14:9-22:20
+325            android:name="com.jaiselrahman.filepicker.utils.FilePickerProvider"
+325-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:15:13-80
+326            android:authorities="com.webviewgold.myappname.filepicker.provider"
+326-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:16:13-71
+327            android:exported="false"
+327-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:17:13-37
+328            android:grantUriPermissions="true" >
+328-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:18:13-47
+329            <meta-data
+329-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:57:13-59:53
+330                android:name="android.support.FILE_PROVIDER_PATHS"
+330-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:58:17-67
+331                android:resource="@xml/com_jaiselrahman_filepicker_provider_paths" />
+331-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:59:17-50
+332        </provider>
+333
+334        <activity
+334-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:24:9-26:59
+335            android:name="com.jaiselrahman.filepicker.activity.FilePickerActivity"
+335-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:25:13-83
+336            android:theme="@style/AppTheme.NoActionBar" />
+336-->[com.github.jaiselrahman:FilePicker:1.3.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/5fb1554d97a798d5aae2d3aa128a02e9/transformed/jetified-FilePicker-1.3.2/AndroidManifest.xml:26:13-56
+337        <activity android:name="com.blikoon.qrcodescanner.QrCodeActivity" >
+337-->[com.github.blikoon:QRCodeScanner:0.1.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/ecfc56019d673ed30840cb8b90a95ddb/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:15:9-16:20
+337-->[com.github.blikoon:QRCodeScanner:0.1.2] /Users/tolgamac/.gradle/caches/8.11.1/transforms/ecfc56019d673ed30840cb8b90a95ddb/transformed/jetified-QRCodeScanner-0.1.2/AndroidManifest.xml:15:19-74
+338        </activity>
+339
+340        <meta-data
+340-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:19:9-21:37
+341            android:name="com.google.android.play.billingclient.version"
+341-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:20:13-73
+342            android:value="7.0.0" />
+342-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:21:13-34
+343
+344        <activity
+344-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:23:9-27:75
+345            android:name="com.android.billingclient.api.ProxyBillingActivity"
+345-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:24:13-78
+346            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+346-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:25:13-96
+347            android:exported="false"
+347-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:26:13-37
+348            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+348-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:27:13-72
+349        <activity
+349-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:28:9-32:75
+350            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+350-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:29:13-80
+351            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+351-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:30:13-96
+352            android:exported="false"
+352-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:31:13-37
+353            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+353-->[com.android.billingclient:billing:7.0.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/7c51caa26a296aaa691be1b6c9d740a1/transformed/jetified-billing-7.0.0/AndroidManifest.xml:32:13-72
+354
+355        <receiver
+355-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:32:9-39:20
+356            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+356-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:33:13-78
+357            android:exported="true"
+357-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:34:13-36
+358            android:permission="com.google.android.c2dm.permission.SEND" >
+358-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:35:13-73
+359            <intent-filter>
+359-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:36:13-38:29
+360                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+360-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:57:17-81
+360-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:57:25-78
+361            </intent-filter>
+362        </receiver>
+363        <!--
+364             FirebaseMessagingService performs security checks at runtime,
+365             but set to not exported to explicitly avoid allowing another app to call it.
+366        -->
+367        <service
+367-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:45:9-52:19
+368            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+368-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:46:13-82
+369            android:directBootAware="true"
+369-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:47:13-43
+370            android:exported="false" >
+370-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:48:13-37
+371            <intent-filter android:priority="-500" >
+371-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:162:13-164:29
+372                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+372-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:17-78
+372-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:25-75
+373            </intent-filter>
+374        </service>
+375        <service
+375-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:53:9-59:19
+376            android:name="com.google.firebase.components.ComponentDiscoveryService"
+376-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:54:13-84
+377            android:directBootAware="true"
+377-->[com.google.firebase:firebase-common:20.1.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8b245a1443ca9aa661c13d219b6503bb/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+378            android:exported="false" >
+378-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:55:13-37
+379            <meta-data
+379-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:56:13-58:85
+380                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+380-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:57:17-119
+381                android:value="com.google.firebase.components.ComponentRegistrar" />
+381-->[com.google.firebase:firebase-messaging:23.0.7] /Users/tolgamac/.gradle/caches/8.11.1/transforms/e552b4f1a332e8e4111798a06fb77353/transformed/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:58:17-82
+382            <meta-data
+382-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/aa008d9852d35bb0ef09c5aa661f1b6c/transformed/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+383                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+383-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/aa008d9852d35bb0ef09c5aa661f1b6c/transformed/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+384                android:value="com.google.firebase.components.ComponentRegistrar" />
+384-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/aa008d9852d35bb0ef09c5aa661f1b6c/transformed/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+385            <meta-data
+385-->[com.google.firebase:firebase-installations:17.0.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/da8b8e3032d2f61f958295deeaf88cf1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+386                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+386-->[com.google.firebase:firebase-installations:17.0.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/da8b8e3032d2f61f958295deeaf88cf1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+387                android:value="com.google.firebase.components.ComponentRegistrar" />
+387-->[com.google.firebase:firebase-installations:17.0.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/da8b8e3032d2f61f958295deeaf88cf1/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+388            <meta-data
+388-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/tolgamac/.gradle/caches/8.11.1/transforms/92e7831816b6559c976ef711dbd38f7b/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+389                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+389-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/tolgamac/.gradle/caches/8.11.1/transforms/92e7831816b6559c976ef711dbd38f7b/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+390                android:value="com.google.firebase.components.ComponentRegistrar" />
+390-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/tolgamac/.gradle/caches/8.11.1/transforms/92e7831816b6559c976ef711dbd38f7b/transformed/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+391        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+392        <activity
+392-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:53:9-58:43
+393            android:name="com.google.android.gms.ads.AdActivity"
+393-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:54:13-65
+394            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+394-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:55:13-122
+395            android:exported="false"
+395-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:56:13-37
+396            android:theme="@android:style/Theme.Translucent" />
+396-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:57:13-61
+397
+398        <provider
+398-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:60:9-65:43
+399            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+399-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:61:13-76
+400            android:authorities="com.webviewgold.myappname.mobileadsinitprovider"
+400-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:62:13-73
+401            android:exported="false"
+401-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:63:13-37
+402            android:initOrder="100" />
+402-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:64:13-36
+403
+404        <service
+404-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:67:9-71:43
+405            android:name="com.google.android.gms.ads.AdService"
+405-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:68:13-64
+406            android:enabled="true"
+406-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:69:13-35
+407            android:exported="false" />
+407-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:70:13-37
+408
+409        <activity
+409-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:73:9-77:43
+410            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+410-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:74:13-82
+411            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+411-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:75:13-122
+412            android:exported="false" />
+412-->[com.google.android.gms:play-services-ads-lite:22.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/71214f7b02c80f47f341e4e9a4bd0ef8/transformed/jetified-play-services-ads-lite-22.1.0/AndroidManifest.xml:76:13-37
+413
+414        <provider
+414-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:8:9-13:38
+415            android:name="com.pushwoosh.firebase.FirebaseInitProvider"
+415-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:9:13-71
+416            android:authorities="com.webviewgold.myappname.firebasepushwooshinitprovider"
+416-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:10:13-81
+417            android:enabled="true"
+417-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:11:13-35
+418            android:exported="false"
+418-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:12:13-37
+419            android:initOrder="55" />
+419-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:13:13-35
+420
+421        <service
+421-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:15:9-21:19
+422            android:name="com.pushwoosh.firebase.PushFcmIntentService"
+422-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:16:13-71
+423            android:exported="false" >
+423-->[com.pushwoosh:pushwoosh-firebase:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/1ad8558697baadc7594cd88c2c00f5cb/transformed/jetified-pushwoosh-firebase-6.7.10/AndroidManifest.xml:17:13-37
+424            <intent-filter>
+424-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:162:13-164:29
+425                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+425-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:17-78
+425-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:163:25-75
+426            </intent-filter>
+427        </service>
+428
+429        <activity
+429-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:42:9-44:75
+430            android:name="com.pushwoosh.inapp.view.RichMediaWebActivity"
+430-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:43:13-73
+431            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+431-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:44:13-72
+432        <activity
+432-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:45:9-49:75
+433            android:name="com.pushwoosh.notification.NotificationOpenActivity"
+433-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:46:13-79
+434            android:exported="false"
+434-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:47:13-37
+435            android:noHistory="true"
+435-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:48:13-37
+436            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+436-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:49:13-72
+437
+438        <receiver
+438-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:51:9-61:20
+439            android:name="com.pushwoosh.BootReceiver"
+439-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:52:13-54
+440            android:enabled="true"
+440-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:53:13-35
+441            android:exported="true"
+441-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:54:13-36
+442            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+442-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:55:13-75
+443            <intent-filter>
+443-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:56:13-60:29
+444                <action android:name="android.intent.action.BOOT_COMPLETED" />
+444-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:17-79
+444-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:25-76
+445
+446                <category android:name="android.intent.category.DEFAULT" />
+446-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:17-76
+446-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:74:27-73
+447            </intent-filter>
+448        </receiver>
+449
+450        <activity
+450-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:63:9-65:75
+451            android:name="com.pushwoosh.internal.utils.PermissionActivity"
+451-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:64:13-75
+452            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+452-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:65:13-72
+453        <activity
+453-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:66:9-68:75
+454            android:name="com.pushwoosh.internal.utils.NotificationPermissionActivity"
+454-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:67:13-87
+455            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+455-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:68:13-72
+456
+457        <receiver android:name="com.pushwoosh.notification.LocalNotificationReceiver" /> <!-- uses applicationId -->
+457-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:70:9-89
+457-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:70:19-86
+458        <provider
+458-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:73:9-78:38
+459            android:name="com.pushwoosh.PushwooshInitProvider"
+459-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:74:13-63
+460            android:authorities="com.webviewgold.myappname.pushwooshinitprovider"
+460-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:75:13-73
+461            android:enabled="true"
+461-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:76:13-35
+462            android:exported="false"
+462-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:77:13-37
+463            android:initOrder="50" /> <!-- uses applicationId end -->
+463-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:78:13-35
+464        <provider
+464-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:80:9-85:38
+465            android:name="com.pushwoosh.PushwooshSharedDataProvider"
+465-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:81:13-69
+466            android:authorities="com.webviewgold.myappname.PushwooshSharedDataProvider"
+466-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:82:13-79
+467            android:enabled="true"
+467-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:83:13-35
+468            android:exported="true"
+468-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:84:13-36
+469            android:initOrder="60" />
+469-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:85:13-35
+470
+471        <receiver
+471-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:87:9-90:40
+472            android:name="com.pushwoosh.NotificationUpdateReceiver"
+472-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:88:13-68
+473            android:enabled="true"
+473-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:89:13-35
+474            android:exported="false" />
+474-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:90:13-37
+475
+476        <provider
+476-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:92:9-100:20
+477            android:name="com.pushwoosh.internal.fileprovider.PWFileProvider"
+477-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:93:13-78
+478            android:authorities="com.webviewgold.myappname.provider"
+478-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:94:13-60
+479            android:exported="false"
+479-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:95:13-37
+480            android:grantUriPermissions="true" >
+480-->[com.pushwoosh:pushwoosh:6.7.10] /Users/tolgamac/.gradle/caches/8.11.1/transforms/fd680ee42610b784e47415d47aecba2b/transformed/jetified-pushwoosh-6.7.10/AndroidManifest.xml:96:13-47
+481            <meta-data
+481-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:57:13-59:53
+482                android:name="android.support.FILE_PROVIDER_PATHS"
+482-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:58:17-67
+483                android:resource="@xml/pw_provider_paths" />
+483-->/Users/tolgamac/Downloads/WebViewGold_Android_v16.1/AndroidStudioSourceCode/app/src/main/AndroidManifest.xml:59:17-50
+484        </provider>
+485
+486        <activity
+486-->[com.google.android.gms:play-services-base:18.3.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/62593cfdab48fa58de17dd325eb801a9/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+487            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+487-->[com.google.android.gms:play-services-base:18.3.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/62593cfdab48fa58de17dd325eb801a9/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+488            android:exported="false"
+488-->[com.google.android.gms:play-services-base:18.3.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/62593cfdab48fa58de17dd325eb801a9/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+489            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+489-->[com.google.android.gms:play-services-base:18.3.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/62593cfdab48fa58de17dd325eb801a9/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+490        <activity
+490-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:20:9-24:75
+491            android:name="com.facebook.ads.AudienceNetworkActivity"
+491-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:21:13-68
+492            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+492-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:22:13-106
+493            android:exported="false"
+493-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:23:13-37
+494            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+494-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:24:13-72
+495
+496        <provider
+496-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:26:9-29:40
+497            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+497-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:27:13-75
+498            android:authorities="com.webviewgold.myappname.AudienceNetworkContentProvider"
+498-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:28:13-82
+499            android:exported="false" />
+499-->[com.facebook.android:audience-network-sdk:6.17.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/8299c7d635e9e5492c5974f90281faad/transformed/jetified-audience-network-sdk-6.17.0/AndroidManifest.xml:29:13-37
+500
+501        <receiver
+501-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+502            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+502-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+503            android:enabled="true"
+503-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+504            android:exported="false" >
+504-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+505        </receiver>
+506
+507        <service
+507-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+508            android:name="com.google.android.gms.measurement.AppMeasurementService"
+508-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+509            android:enabled="true"
+509-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+510            android:exported="false" />
+510-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+511        <service
+511-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+512            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+512-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+513            android:enabled="true"
+513-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+514            android:exported="false"
+514-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+515            android:permission="android.permission.BIND_JOB_SERVICE" />
+515-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/a517e057305e02fcd04813dedc47a829/transformed/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+516
+517        <provider
+517-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:29:9-37:20
+518            android:name="androidx.startup.InitializationProvider"
+518-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:30:13-67
+519            android:authorities="com.webviewgold.myappname.androidx-startup"
+519-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:31:13-68
+520            android:exported="false" >
+520-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:32:13-37
+521            <meta-data
+521-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:34:13-36:52
+522                android:name="androidx.work.WorkManagerInitializer"
+522-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:35:17-68
+523                android:value="androidx.startup" />
+523-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:36:17-49
+524            <meta-data
+524-->[androidx.emoji2:emoji2:1.2.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3a68588ac4fe5e741fed833916a53408/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+525                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+525-->[androidx.emoji2:emoji2:1.2.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3a68588ac4fe5e741fed833916a53408/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+526                android:value="androidx.startup" />
+526-->[androidx.emoji2:emoji2:1.2.0] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3a68588ac4fe5e741fed833916a53408/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+527            <meta-data
+527-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/729a77e64ab62a14e768c515fcdba295/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+528                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+528-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/729a77e64ab62a14e768c515fcdba295/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+529                android:value="androidx.startup" />
+529-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tolgamac/.gradle/caches/8.11.1/transforms/729a77e64ab62a14e768c515fcdba295/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+530        </provider>
+531
+532        <service
+532-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:39:9-45:35
+533            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+533-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:40:13-88
+534            android:directBootAware="false"
+534-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:41:13-44
+535            android:enabled="@bool/enable_system_alarm_service_default"
+535-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:42:13-72
+536            android:exported="false" />
+536-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:43:13-37
+537        <service
+537-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:46:9-52:35
+538            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+538-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:47:13-84
+539            android:directBootAware="false"
+539-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:48:13-44
+540            android:enabled="@bool/enable_system_job_service_default"
+540-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:49:13-70
+541            android:exported="true"
+541-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:50:13-36
+542            android:permission="android.permission.BIND_JOB_SERVICE" />
+542-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:51:13-69
+543        <service
+543-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:53:9-59:35
+544            android:name="androidx.work.impl.foreground.SystemForegroundService"
+544-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:54:13-81
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:55:13-44
+546            android:enabled="@bool/enable_system_foreground_service_default"
+546-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:56:13-77
+547            android:exported="false" />
+547-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:57:13-37
+548
+549        <receiver
+549-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:61:9-66:35
+550            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+550-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:62:13-88
+551            android:directBootAware="false"
+551-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:63:13-44
+552            android:enabled="true"
+552-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:64:13-35
+553            android:exported="false" />
+553-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:65:13-37
+554        <receiver
+554-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:67:9-77:20
+555            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+555-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:68:13-106
+556            android:directBootAware="false"
+556-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:69:13-44
+557            android:enabled="false"
+557-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:70:13-36
+558            android:exported="false" >
+558-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:71:13-37
+559            <intent-filter>
+559-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:73:13-76:29
+560                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+560-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:74:17-87
+560-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:74:25-84
+561                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+561-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:75:17-90
+561-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:75:25-87
+562            </intent-filter>
+563        </receiver>
+564        <receiver
+564-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:78:9-88:20
+565            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+565-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:79:13-104
+566            android:directBootAware="false"
+566-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:80:13-44
+567            android:enabled="false"
+567-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:81:13-36
+568            android:exported="false" >
+568-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:82:13-37
+569            <intent-filter>
+569-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:84:13-87:29
+570                <action android:name="android.intent.action.BATTERY_OKAY" />
+570-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:85:17-77
+570-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:85:25-74
+571                <action android:name="android.intent.action.BATTERY_LOW" />
+571-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:86:17-76
+571-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:86:25-73
+572            </intent-filter>
+573        </receiver>
+574        <receiver
+574-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:89:9-99:20
+575            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+575-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:90:13-104
+576            android:directBootAware="false"
+576-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:91:13-44
+577            android:enabled="false"
+577-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:92:13-36
+578            android:exported="false" >
+578-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:93:13-37
+579            <intent-filter>
+579-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:95:13-98:29
+580                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+580-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:96:17-83
+580-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:96:25-80
+581                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+581-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:97:17-82
+581-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:97:25-79
+582            </intent-filter>
+583        </receiver>
+584        <receiver
+584-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:100:9-109:20
+585            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+585-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:101:13-103
+586            android:directBootAware="false"
+586-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:102:13-44
+587            android:enabled="false"
+587-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:103:13-36
+588            android:exported="false" >
+588-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:104:13-37
+589            <intent-filter>
+589-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:106:13-108:29
+590                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+590-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:107:17-79
+590-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:107:25-76
+591            </intent-filter>
+592        </receiver>
+593        <receiver
+593-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:110:9-121:20
+594            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+594-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:111:13-88
+595            android:directBootAware="false"
+595-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:112:13-44
+596            android:enabled="false"
+596-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:113:13-36
+597            android:exported="false" >
+597-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:114:13-37
+598            <intent-filter>
+598-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:116:13-120:29
+599                <action android:name="android.intent.action.BOOT_COMPLETED" />
+599-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:17-79
+599-->[com.onesignal:OneSignal:4.8.11] /Users/tolgamac/.gradle/caches/8.11.1/transforms/3e0eebbe3f25a7cad7763ea7b08c7369/transformed/jetified-OneSignal-4.8.11/AndroidManifest.xml:109:25-76
+600                <action android:name="android.intent.action.TIME_SET" />
+600-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:118:17-73
+600-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:118:25-70
+601                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+601-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:119:17-81
+601-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:119:25-78
+602            </intent-filter>
+603        </receiver>
+604        <receiver
+604-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:122:9-131:20
+605            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+605-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:123:13-99
+606            android:directBootAware="false"
+606-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:124:13-44
+607            android:enabled="@bool/enable_system_alarm_service_default"
+607-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:125:13-72
+608            android:exported="false" >
+608-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:126:13-37
+609            <intent-filter>
+609-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:128:13-130:29
+610                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+610-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:129:17-98
+610-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:129:25-95
+611            </intent-filter>
+612        </receiver>
+613        <receiver
+613-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:132:9-142:20
+614            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+614-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:133:13-78
+615            android:directBootAware="false"
+615-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:134:13-44
+616            android:enabled="true"
+616-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:135:13-35
+617            android:exported="true"
+617-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:136:13-36
+618            android:permission="android.permission.DUMP" >
+618-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:137:13-57
+619            <intent-filter>
+619-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:139:13-141:29
+620                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+620-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:140:17-88
+620-->[androidx.work:work-runtime:2.8.0-alpha03] /Users/tolgamac/.gradle/caches/8.11.1/transforms/282758a9a195109e3906046c4d9aac2d/transformed/work-runtime-2.8.0-alpha03/AndroidManifest.xml:140:25-85
+621            </intent-filter>
+622        </receiver>
+623
+624        <service
+624-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+625            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+625-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+626            android:exported="false" >
+626-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+627            <meta-data
+627-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+628                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+628-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+629                android:value="cct" />
+629-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/d165aeae5c974a070e5f32e2789f5ab8/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+630        </service>
+631        <service
+631-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+632            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+632-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+633            android:exported="false"
+633-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+634            android:permission="android.permission.BIND_JOB_SERVICE" >
+634-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+635        </service>
+636
+637        <receiver
+637-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+638            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+638-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+639            android:exported="false" />
+639-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/tolgamac/.gradle/caches/8.11.1/transforms/6b58b23b0718762468c1457aa3557f20/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+640
+641        <service
+641-->[androidx.room:room-runtime:2.4.0-rc01] /Users/tolgamac/.gradle/caches/8.11.1/transforms/01ab62482c70adcccea9cad15bd6d050/transformed/room-runtime-2.4.0-rc01/AndroidManifest.xml:25:9-28:40
+642            android:name="androidx.room.MultiInstanceInvalidationService"
+642-->[androidx.room:room-runtime:2.4.0-rc01] /Users/tolgamac/.gradle/caches/8.11.1/transforms/01ab62482c70adcccea9cad15bd6d050/transformed/room-runtime-2.4.0-rc01/AndroidManifest.xml:26:13-74
+643            android:directBootAware="true"
+643-->[androidx.room:room-runtime:2.4.0-rc01] /Users/tolgamac/.gradle/caches/8.11.1/transforms/01ab62482c70adcccea9cad15bd6d050/transformed/room-runtime-2.4.0-rc01/AndroidManifest.xml:27:13-43
+644            android:exported="false" />
+644-->[androidx.room:room-runtime:2.4.0-rc01] /Users/tolgamac/.gradle/caches/8.11.1/transforms/01ab62482c70adcccea9cad15bd6d050/transformed/room-runtime-2.4.0-rc01/AndroidManifest.xml:28:13-37
+645    </application>
+646
+647</manifest>
